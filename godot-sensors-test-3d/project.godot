@@ -1,0 +1,23 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+[application]
+
+config/name="godot-sensors-test-3d"
+run/main_scene="res://src/scenes/Cube/Cube.tscn"
+config/icon="res://icon.png"
+
+[autoload]
+
+Server="*res://src/singletons/Server.gd"
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"

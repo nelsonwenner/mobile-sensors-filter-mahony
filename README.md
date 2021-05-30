@@ -5,6 +5,12 @@
 ## :bulb: About
 This project is an application that uses data from its sensors such as accelerometer and gyroscope to be used in some type of manipulation involving games, among others. In this example, I transmit this data from the sensors via WebSocket and manipulate a 3D object, [demonstration](https://youtu.be/x0P_QC6Bt64).
 
+## :movie_camera: Preview
+
+<div align="center">
+  <img src="preview.gif" />
+</div>
+
 ## :rocket: Technologies
 
 * [Flutter](https://flutter.dev/)
